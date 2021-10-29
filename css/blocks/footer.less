@@ -1,0 +1,46 @@
+//main: ../style.less
+.footer{
+    background: #332F30;
+    padding: 1rem 0;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__adreess{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer__ad{
+    display: flex;
+    align-items: center;
+    color:fade(@grey-light, 70%);
+    font-size: 0.8rem;
+    font-weight: 400;
+    //padding-right: 1.5rem;
+    
+
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.footer__link{
+    margin-right: 0.8rem;
+    text-decoration: none;
+    &:hover{
+        transform: translateY(-5px);
+        transition: .2s linear; 
+    }
+}
+.footer__border{
+    width: .5px;
+    height: 20px;
+    background-color: fade(@grey-light, 70%);
+    margin: 0.7rem 1rem;
+
+}

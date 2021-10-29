@@ -1,0 +1,57 @@
+//main: ../style.less
+
+.btn_main{
+    margin-top: 30px;
+
+
+}
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.06rem;
+    color: @black;
+    text-transform: uppercase;
+    color: @grey;
+    
+    min-width: 170px;
+    text-align: center;
+    
+    text-decoration: none;
+    border: 1px solid @grey;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1.1;
+    padding: 1.05em 1.7em;
+    border-radius: 1.8em;
+    margin-top: 70px;
+    &:hover{
+        background-color: @black;
+        color: @white;
+        box-shadow: 2px 2px 10x fade(#000, 24%);
+        transition: .2s linear;
+        
+    }
+    + .btn{
+        margin-left: 1rem;
+    }
+
+}
+
+/*modificator*/
+
+.btn--sm{
+    padding: .6em 1.5em;
+    font-size: 0.94rem;
+    font-weight: 700;
+    margin-top: 0;
+    color: @black;
+    border-width: 2px;
+
+}
+.btn--red{
+    margin-top: 1rem;
+    border: 2px solid fade(@grey, 70%);
+    font-weight: 700;
+    font-size: 00.8rem;
+}

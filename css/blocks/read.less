@@ -1,0 +1,122 @@
+//main: ../style.less
+.read{
+   padding: 15.6rem 0 4rem;
+    
+}
+.read__sem{
+    display: none;
+}
+.read__me{
+    
+   text-align: center;
+}
+
+.read__title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: @black;
+    margin-bottom: 1.3rem;
+    text-transform: uppercase;
+}
+.read__smalltitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: fade(@black,70%);
+    line-height: 1.1;
+    margin-bottom: 4rem;
+}
+
+.read__prev{
+    display: flex;
+    flex-wrap: wrap;
+}
+.read__block{
+    width: 30%;
+    
+    margin-left: 2rem;
+    
+}
+.read__img{
+    position: relative;
+    
+    box-shadow: 0 0 4px fade(@black, 25%);
+    &:hover{
+        box-shadow: 0 0 30px fade(@black,80%);
+        transition: .1s linear;
+
+    }
+}
+
+.read__image{
+    display: blocks;
+    max-width: 390px;
+    padding-top: 2px;
+    width: 100%;
+    height: 260px;
+    overflow: inherit;
+}
+
+.read__data{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+    border: 1px solid @black;
+    background-color: @black;
+    color: @white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.read__inner{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+}
+
+.read__subtitle{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: @black;
+    padding-top: 1.7rem;
+}
+
+.read__cat{
+    font-size: 0.8rem;
+    color: fade(@black, 80%);
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 1.1rem;
+}
+
+.read__text{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: @grey;
+    line-height: 2rem;
+    padding-top: 2.3rem;
+
+}
+
+.read__seeMore{
+   
+}
+
+.read__seeMoreLink{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: fade(@black,70%);
+    text-align: right;
+    width: 100%;
+    
+    margin-top: 1.3rem;
+    margin-bottom: 8.3rem;
+
+}
